@@ -9,12 +9,18 @@
 	<title>Alyson Trizotto</title>
 </head>
 <body>
-  <nav id="nav">
-    <a class="menu" href="#">Home</a>
-    <a class="menu" href="#">Sobre</a>
-    <a class="menu" href="#">Blog</a>
-    <a class="menu" href="#">Contato</a>
-  </nav>
+  <?php
+    $vendor = dirname(__DIR__);
+    include_once $vendor . DIRECTORY_SEPARATOR . "view" . DIRECTORY_SEPARATOR .  "nav.php";
+  ?>
+  <div class="cabecalho">
+    <img src="../../src/view/img/alyson-capa.jpg" alt="Alyson Capa">
+    <h1>Olá, Eu sou o Alyson Trizotto</h1>
+  </div>
 
 </body>
+<?php
+    $vendor = dirname(__DIR__);
+    include_once $vendor . DIRECTORY_SEPARATOR . "view" . DIRECTORY_SEPARATOR . "footer.php";
+  ?>
 </html>
