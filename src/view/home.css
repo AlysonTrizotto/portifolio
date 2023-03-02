@@ -89,6 +89,10 @@ html{
     	font-family: sans-serif;
     	background: url() no-repeat;
     	background-size: cover;
+
+        font-family: Raleway;
+        box-shadow: 2px 2px 8px rgb(40, 39, 39);
+        background: #777676;
     }
 
     nav{
