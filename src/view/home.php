@@ -14,8 +14,13 @@
     include_once $vendor . DIRECTORY_SEPARATOR . "view" . DIRECTORY_SEPARATOR .  "nav.php";
   ?>
   <div class="cabecalho">
-    <img src="../../src/view/img/alyson-capa.jpg" alt="Alyson Capa">
-    <h1>Olá, Eu sou o Alyson Trizotto</h1>
+    <div>
+      <span></span>
+      <img src="../../src/view/img/alyson-capa.jpg" alt="Alyson Capa">
+      <h1>Olá, Eu sou o Alyson Trizotto</h1>
+      <span></span>
+    </div>
+    
   </div>
 
 </body>
