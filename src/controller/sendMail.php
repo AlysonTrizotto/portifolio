@@ -47,17 +47,8 @@ class SendMail{
 
             //Send mail
             $mail->send();
-
-            print_r($mail);
-
-            exit();
-
             header("location: ../view/home.php?success=0");
         } catch (Exception $e){   
-            print_r($mail);
-
-            exit();
-            
             header("location: ../view/home.php?success=1");
         }
     }   
