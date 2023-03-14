@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 html{
-    overflow-y: scroll;
-    scroll-snap-type: mandatory;
+    overflow-y: hidden;
 }
 
 body {
@@ -18,6 +17,11 @@ body {
     width: 100%;
 }
 
+h1{
+    text-align: center;
+    background-color: #504f4f;
+    padding-bottom: 10%;
+}
 
 footer{
     position: fixed;
@@ -109,7 +113,7 @@ footer{
 }
 
 .body-form{
-    margin-top: 20%;
+    margin-top: 5%;
     height: 50%;
     width: 50%;
 }

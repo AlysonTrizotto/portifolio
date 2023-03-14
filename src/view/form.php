@@ -15,6 +15,9 @@
         ?>
         <div class="body">
             <div class="body-form">
+                <div>
+                    <h1>Olá, vamos conversar?</h1>
+                </div>
                 <form action="../../src/controller/sendMail.php" method="POST">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
@@ -28,7 +31,7 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
                         <textarea name="mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <input class="button" type="submit" name="send-mail" value="Enviar">
+                    <button class="button btn btn-outline-secondary" type="submit" name="send-mail" value="Enviar">Enviar</button>
                 </form>                
             </div>
         </div>        
