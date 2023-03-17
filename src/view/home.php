@@ -58,7 +58,32 @@ if(array_key_exists("success", $_GET)){
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>Projetos em que trabalhei:<br></strong><br><strong>Projeto Automação de processos N1 e N2 como: </strong><br>Criação de usuários <br>Instalação de Software <br><br><strong>Técnologias usadas:</strong><br>Automation Edge<br>PowerShell<br>PHP<br>JavaScript<br>HTML<br>CSS<br>BootStrap<br>MySQL<br>RestAPI<br>LDAP<br>PsExec<br>JSON<br><br><strong>Projeto Sincronização de dados entre plataformas distintas</strong> <br>Sincronização de dados entre duas plataformas, validando existência de informações através de match de dados.<br><br><strong>Técnologias usadas:</strong><br>PHP<br>RestAPI<br>JSON<br>XML<br><br><strong>Projeto disparo automátio de mensagens WhatsApp</strong> <br>Disparo de mensagens atráves de acionamento Zabbix<br><br><strong>Técnologias usadas</strong><br>Apache2<br>PHP<br>JSON<br>Python<br>YowsUp<br>
+              <strong>Projeto Sincronização de dados entre plataformas distintas</strong><br>
+              Sincronização de dados entre duas plataformas, validando existência de informações através de match de dados.<br><br>
+              <strong>Técnologias usadas:</strong><br>
+              PHP<br>
+              RestAPI<br>
+              JSON<br>
+              XML<br><br>
+              <strong>Projeto disparo automátio de mensagens WhatsApp</strong><br>
+              Disparo de mensagens atráves de modificação em base de dados<br><br>
+              <strong>Técnologias usadas</strong><br>
+              PHP<br>
+              JSON<br>
+              Python<br>
+              YowsUp<br><br>
+              <strong>Técnologias que já usei para automação:<br></strong><br>
+              Automation Edge<br>
+              PowerShell<br>
+              VBScript<br>
+              PHP<br>
+              JavaScript<br>
+              RestAPI<br>
+              LDAP<br>
+              PsExec<br>
+              JSON<br>
+              XML<br>
+              MySQL<br><br>             
             </div>
           </div>
         </div>
@@ -70,7 +95,17 @@ if(array_key_exists("success", $_GET)){
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            <strong>Projetos em que trabalhei:</strong><br><br><strong>Projeto Top11</strong><br>Consite em uma aplicação para controle de pedidos, vendas, pagamento e recebimento, onde cada pedido é impresso na cozinha para informar a chegada de um novo pedido.<br><br><strong>Técnologias usadas:</strong><br>C#<br>.Net<br>Postgress<br><br><strong>Projeto de Extração de tabelas de PDF</strong><br>O projeto foi consite na extração de tabelas de PDF, conversão das informações coletadas em CSV e compactação do arquivo gerado.<br><br><strong>Tecnologia usada:</strong><br>Java Maven<br>
+            <strong>Projetos em que trabalhei:</strong><br><br>
+            <strong>Projeto Top11</strong><br>
+            Consite em uma aplicação para controle de pedidos, vendas, pagamento e recebimento, onde cada pedido é impresso na cozinha para informar a chegada de um novo pedido.<br><br>
+            <strong>Técnologias usadas:</strong><br>
+            C#<br>
+            .Net<br>
+            Postgress<br><br>
+            <strong>Projeto de Extração de tabelas de PDF</strong><br>
+            O projeto foi consite na extração de tabelas de PDF, conversão das informações coletadas em CSV e compactação do arquivo gerado.<br><br>
+            <strong>Tecnologia usada:</strong><br>
+            Java Maven<br>
             </div>
           </div>
         </div>
@@ -82,7 +117,34 @@ if(array_key_exists("success", $_GET)){
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>Projetos em que trabalhei:</strong><br><br><strong>Este Portfólio</strong><br>O projeto foi construído com intuito de apresentação pessoal. Conta também com uma guia chamada (Conteúdo) onde armazeno trechos de códigos que usei, explicações e artuigos feitos por mim.<br><br><strong>Técnologias usadas:</strong><br>PHP<br>MySQL<br>JavaScript<br>HTML<br>CSS<br>BootStrap<br><br><strong>Projeto Site Alinare</strong><br>O site passou por reestruturação, inclusão de novas funcionalidades, atualização de plugins entre outros pontos.<br><br><strong>Tecnologias usadas</strong>PHP<br>WordPress<br>CSS<br>MySQL<br><br><strong>Projeto Formulário Criação de Usuário</strong><br><br>Formulário com autenticação LDAP, o forumlário faz uso de coleta de informações tanto de base de dados como de consumo LDAP. Após todo o preenchimento é realizado disparo de e-mail com as informações.<br><br><strong>Técnologias usadas</strong><br>PHP<br>JavaScrip<br>CSS<br>HTML<br>MySQL<br>LDAP<br>
+              <strong>Projetos em que trabalhei:</strong><br><br>
+              <strong>Este Portfólio</strong><br>
+              O projeto foi construído com intuito de apresentação pessoal. Conta também com uma guia chamada (Conteúdo) onde armazeno trechos de códigos que usei, explicações e artuigos feitos por mim.<br><br>
+              <strong>Técnologias usadas:</strong>
+              Apache2<br><br>
+              PHP<br>
+              MySQL<br>
+              JavaScript<br>
+              HTML<br>
+              CSS<br>
+              BootStrap<br><br>
+              <strong>Projeto Site Alinare</strong><br>
+              O site passou por reestruturação, inclusão de novas funcionalidades, atualização de plugins entre outros pontos.<br><br>
+              <strong>Tecnologias usadas</strong><br>
+              PHP<br>
+              WordPress<br>
+              CSS<br>
+              MySQL<br><br>
+              <strong>Técnologias</strong><br><br>
+              <strong>Back-End</strong><br>
+              Apache2<br>
+              PHP<br>
+              PHP Composer<br>
+              Laravel<br><br>
+              <strong>Front-End</strong><br>
+              JavaScript<br>
+              CSS<br>
+              HTML<br>
             </div>
           </div>
         </div>
