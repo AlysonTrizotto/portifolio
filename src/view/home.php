@@ -30,8 +30,10 @@ if(array_key_exists("success", $_GET)){
   ?>
   <div class="body">
     <div class="cabecalho">
-      <div class="container container-img"> 
-        <img class="img-Cabecalho" src="../../src/view/img/alyson-capa.jpg" alt="Alyson Capa">
+      <div class="container container-img">
+        <figure>
+          <img class="img-Cabecalho" src="../../src/view/img/alyson-capa.jpg" alt="Alyson Capa">
+        </figure> 
       </div>
       <div class="container container-text">
         <h1>Olá, sou o <br>Alyson Trizotto</h1>
@@ -46,14 +48,45 @@ if(array_key_exists("success", $_GET)){
 
     <div class="corpo">
       <div>
-        <h2>Mais sobre mim . . .</h2>
-        <div class="card mb-3" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2>Skills</h2>
+        <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Desenvolvimento de Robotic Process Automated (RPA)
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Projetos em que trabalhei:<br></strong><br><strong>Projeto Automação de processos N1 e N2 como: </strong><br>Criação de usuários <br>Instalação de Software <br><br><strong>Técnologias usadas:</strong><br>Automation Edge<br>PowerShell<br>PHP<br>JavaScript<br>HTML<br>CSS<br>BootStrap<br>MySQL<br>RestAPI<br>LDAP<br>PsExec<br>JSON<br><br><strong>Projeto Sincronização de dados entre plataformas distintas</strong> <br>Sincronização de dados entre duas plataformas, validando existência de informações através de match de dados.<br><br><strong>Técnologias usadas:</strong><br>PHP<br>RestAPI<br>JSON<br>XML<br><br><strong>Projeto disparo automátio de mensagens WhatsApp</strong> <br>Disparo de mensagens atráves de acionamento Zabbix<br><br><strong>Técnologias usadas</strong><br>Apache2<br>PHP<br>JSON<br>Python<br>YowsUp<br>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Desenvolvimento de aplicações Desktop
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <strong>Projetos em que trabalhei:</strong><br><br><strong>Projeto Top11</strong><br>Consite em uma aplicação para controle de pedidos, vendas, pagamento e recebimento, onde cada pedido é impresso na cozinha para informar a chegada de um novo pedido.<br><br><strong>Técnologias usadas:</strong><br>C#<br>.Net<br>Postgress<br><br><strong>Projeto de Extração de tabelas de PDF</strong><br>O projeto foi consite na extração de tabelas de PDF, conversão das informações coletadas em CSV e compactação do arquivo gerado.<br><br><strong>Tecnologia usada:</strong><br>Java Maven<br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Desenvolvimento Web
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Projetos em que trabalhei:</strong><br><br><strong>Este Portfólio</strong><br>O projeto foi construído com intuito de apresentação pessoal. Conta também com uma guia chamada (Conteúdo) onde armazeno trechos de códigos que usei, explicações e artuigos feitos por mim.<br><br><strong>Técnologias usadas:</strong><br>PHP<br>MySQL<br>JavaScript<br>HTML<br>CSS<br>BootStrap<br><br><strong>Projeto Site Alinare</strong><br>O site passou por reestruturação, inclusão de novas funcionalidades, atualização de plugins entre outros pontos.<br><br><strong>Tecnologias usadas</strong>PHP<br>WordPress<br>CSS<br>MySQL<br><br><strong>Projeto Formulário Criação de Usuário</strong><br><br>Formulário com autenticação LDAP, o forumlário faz uso de coleta de informações tanto de base de dados como de consumo LDAP. Após todo o preenchimento é realizado disparo de e-mail com as informações.<br><br><strong>Técnologias usadas</strong><br>PHP<br>JavaScrip<br>CSS<br>HTML<br>MySQL<br>LDAP<br>
+            </div>
+          </div>
+        </div>
+      </div>    
       </div>
     </div>
 

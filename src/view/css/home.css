@@ -109,6 +109,9 @@ img{
     background: #504f4f;
 }
 
+.accordion-item > .accordion-header > .accordion-button{
+    background-color:#969696;
+}
 
 @media only screen and (max-width: 600px) {
     
