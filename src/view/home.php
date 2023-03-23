@@ -19,16 +19,17 @@ if(array_key_exists("success", $_GET)){
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="../../src/view/css/home.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<title>Alyson Trizotto</title>
+	<link rel="stylesheet" href="../../src/view/css/home.css">
+  <link rel="stylesheet" href="../../src/view/css/footer.css">
+  <title>Alyson Trizotto</title>
 </head>
 <body>
   <?php
     $vendor = dirname(__DIR__);
     include_once $vendor . DIRECTORY_SEPARATOR . "view" . DIRECTORY_SEPARATOR .  "nav.php";
   ?>
-  <div class="body">
+  <div>
     <div class="cabecalho">
       <div class="container container-img">
         <figure>
@@ -46,7 +47,27 @@ if(array_key_exists("success", $_GET)){
       <a class="btn btn-outline-danger" href='../../src/view/form.php'>E-mail</a>
     </div>
 
-    <div class="corpo">
+    <div class="corpo direcao-coluna">
+      <div>
+        <h1 id="sobre_mim">Sobre Mim</h1>
+        <div class="card">
+          <div class="card-header">
+            <blockquote class="blockquote mb-0">
+              Formações
+            </blockquote>
+          </div>
+          <div class="card-body">            
+              <stronh><p>Graduações</p></strong>   
+              Unicesumar <br>    
+              Análise e Desenvolvimento de Sistemas<br>
+              - Início 06/2020 - Conclusão 12/2022<br>
+              <p></p>
+               Unicesumar <br>    
+               Engenharia de Software<br>
+              - Início 02/2023 - Conclusão 12/2023<br>
+          </div>
+        </div>
+      </div>
       <div>
         <h2>Skills</h2>
         <div class="accordion" id="accordionExample">

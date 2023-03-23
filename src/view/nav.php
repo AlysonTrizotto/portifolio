@@ -13,7 +13,7 @@
           <a class="nav-link" href="../../src/view/form.php">Contato</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Sobre mim</a>
+          <a class="nav-link" aria-current="page" href="#sobre_mim">Sobre mim</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

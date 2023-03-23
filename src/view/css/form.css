@@ -12,14 +12,17 @@ body {
 
     font-family: Raleway;
     box-shadow: 2px 2px 8px rgb(40, 39, 39);
-    background: #636363;
+    background: #636363; 
+
     height: 100%;
     width: 100%;
+
+    
+    color: rgb(209, 205, 205);
 }
 
 h1{
     text-align: center;
-    background-color: #504f4f;
     padding-bottom: 10%;
 }
 
