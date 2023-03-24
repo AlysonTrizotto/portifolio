@@ -93,6 +93,10 @@ img{
     flex-direction: column;
 }
 
+.card{
+    color: #504f4f;
+}
+
 .accordion-item > .accordion-header > .accordion-button{
     background-color:#969696;
 }
